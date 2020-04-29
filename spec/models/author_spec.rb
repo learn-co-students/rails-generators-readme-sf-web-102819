@@ -13,9 +13,9 @@ RSpec.describe Author, type: :model do
     expect(@author.genre).to eq("Fiction")
   end
 
-  it "has a bio" do
-    @author = Author.new
-    @author.bio = "I'm a Teacher!"
-    expect(@author.bio).to eq("I'm a Teacher!")
-  end
+  # it "has a bio" do
+  #   @author = Author.new
+  #   @author.bio = "I'm a Teacher!"
+  #   expect(@author.bio).to eq("I'm a Teacher!")
+  # end
 end
